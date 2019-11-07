@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/crud-usuarios', {
+mongoose.connect('mongodb+srv://Alan:hola1234@cluster0-iel0e.mongodb.net/test?retryWrites=true&w=majority', {
     useCreateIndex: true,
     useNewUrlParser: true,
     useFindAndModify: false
